@@ -328,4 +328,40 @@
         width: 224px;
     }
 
+    /* meet our team styles */
+                                
+    .meet-our-team-section{
+        height: auto;
+    }
+    .meet-our-team-container{
+        max-width: calc(100% - 40px);
+        height: auto;
+        margin: 66px 20px;
+    }
+    .meet-our-team-text{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .meet-our-team-image-container{
+        width: 100%;
+        height: auto;
+        margin-top: 37px;
+        gap: 0px;
+    }
+    .team-row{
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #team-row-2{
+        margin-top: 0px;
+    }                                
+    .team-image-1, .team-image-2, .team-image-3, .team-image-4, .team-image-5, .team-image-6{
+        width: 100%;
+        height:300px;
+    }
+
 }
