@@ -226,3 +226,70 @@ li{
     font-size: 1rem;
     letter-spacing: 0.5px;
 }
+
+                              /* change habit styles */
+
+.change-habit-section{
+    height: 652px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.change-habit-container{
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+}
+.change-habit-text, .meet-our-team-text, .weekly-challenges-text{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid peru; */
+}
+.habit-title, .meet-title, .weekly-challenges-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.habit-desc, .meet-desc, .weekly-challenges-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    text-align: center;
+}
+.change-habit-image{
+    width: 1044px;
+    height: 274px;
+    margin: 0 auto;
+    margin-top: 58px;
+    justify-content: space-between;
+}
+.image-card-container{
+    width: 231px;
+    height: 274px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-card-container img{
+    width: 180px;
+    height: 180px;
+    border: 4px solid #1A1A1A;
+    border-radius: 50%;
+}
+.image-card-container h6{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.image-card-container p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
