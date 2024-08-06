@@ -1,0 +1,126 @@
+/* responsiveness starts here */
+
+@media screen and (max-width:576px){
+
+    /* shared style */
+     .full-container{
+          max-width: 576px;
+          margin: 0 auto;
+          border: 0.01px solid transparent;
+          }
+                                
+    /* navbar style */
+                                
+    .header-section{
+      height: auto;
+     }
+
+     .navbar{
+        max-width: 536px;
+        height: auto;
+        margin: 0 20px;
+        margin-top: 52px;
+    }
+    .nav-right ul{
+        display: none;
+    }
+    .nav-right i{
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .nav-right{
+        border: none;
+    }
+                               
+    /* banner styles */
+
+    .banner-container{
+        max-width: 536px;
+        height: auto;
+        margin: 0 20px;
+        margin-top: 51px;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .banner-text-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-text-container h1{
+        font-size: 2.25rem;
+    }
+    .btn-primary{
+        width: 169px;
+    }
+    .btn-secondary{
+        width: 169px;
+    }
+    .banner-image-container{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .banner-image img{
+        width:100%;
+        height: 100%;
+    }
+    .upper-rectangle{
+        width: 145.91px;
+        height: 74.09px;
+        top: 10.26%;
+        left: 55.231%;
+        padding-left: 18px;
+        padding-top: 12px;
+    }
+    .upper-rectangle .u-number{
+        font-size: 1.89rem;
+        letter-spacing: 0.76px;
+    }
+    .upper-rectangle .u-desc{
+        font-size: 0.614375rem;
+        letter-spacing: 0.76px;
+        margin-bottom: 11px;
+    }
+    .lower-rectangle{
+        width: 155.74px;
+        height: 72.58px;
+        top: 50.49%;
+        left:2.24%;
+        padding-top: 15.12px;
+        padding-bottom: 14.26px;
+        padding-left: 17.39px;
+    }
+    .ball{
+        display: none;
+    }
+    .circle-play{
+        display: block;
+        width: 35px;
+        height: 33px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #E6533C;
+    }
+    .fa-play{
+        font-size: 15px;
+        color: white;
+    }
+    .lower-rectangle .l-number{
+        font-size: 1.13375rem;
+        letter-spacing: 0.23px;
+        margin-bottom: 5.19px;
+    }
+    .lower-rectangle .l-desc{
+        font-size: 0.75625rem;
+        letter-spacing: 0.38px;
+    }
+
+}
