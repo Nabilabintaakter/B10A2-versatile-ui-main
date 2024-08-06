@@ -123,4 +123,32 @@
         letter-spacing: 0.38px;
     }
 
+
+     /* change habit styles */
+
+    .change-habit-section{
+        height: auto;
+    }
+    .change-habit-container{
+        max-width: calc(100% - 40px);
+        height: auto;
+        margin: 0 20px;
+        margin-top: 20px;                                
+    }
+    .change-habit-text, .weekly-challenges-text{
+        width: 100%;
+        height: auto;
+    }
+    .habit-title, .meet-title, .weekly-challenges-title, .run-text-container h1, .training-and-exercise-text-container h1{
+        font-size: 2rem;
+    }
+    .change-habit-image{
+        width: 100%;
+        height: auto;
+                                  
+        flex-direction: column;                                    
+        align-items: center;
+        gap: 36px;
+    } 
+
 }
