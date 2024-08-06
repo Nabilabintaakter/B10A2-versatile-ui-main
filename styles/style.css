@@ -91,3 +91,138 @@ li{
     background-color: transparent;
     border: 1.5px solid #E6533C ;
 }
+
+                                /* banner styles */
+
+.banner-container{
+    max-width: 1036px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 32px;
+    gap: 167px;
+}
+.banner-text-container{
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-text-container h1{
+    font-size: 4.875rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.banner-text-container h1 span{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+.banner-text-container p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    border: none;
+    color: white;
+    background-color: #E6533C;
+    border-radius: 42px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border: 2px solid #E6533C ;
+    color: #E6533C;
+}
+.btn-secondary{
+    width: 224px;
+    height: 54px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 42px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.download-app{
+    margin-left: 14px;
+}
+.download-app:hover{
+    color: white;
+    background-color: #E6533C;
+    border: none;
+}
+.banner-image-container{
+    position: relative;
+}
+.upper-rectangle{
+    width: 193px;
+    height: 98px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    position: absolute;
+    top: 125px;
+    left: 230px;
+    padding-left: 24px;
+    padding-top: 17px;
+}
+.upper-rectangle .u-number{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.upper-rectangle .u-desc{
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: normal;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.lower-rectangle{
+    width: 206px;
+    height: 96px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    top: 421px;
+    right:256px;
+    backdrop-filter: blur(8px);
+    background: rgba(48, 48, 48, 0.54);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+    align-items: center;
+    gap: 8px;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.circle-play{
+    display: none;
+}
+.lower-rectangle .l-number{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+.lower-rectangle .l-desc{
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
