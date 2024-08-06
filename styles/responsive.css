@@ -231,4 +231,39 @@
         left: 130px;
     }
 
+    /* weekly challenges styles */
+                                                            
+    .weekly-challenges-section{
+        height: auto;
+    }
+    .weekly-challenges-container{
+        max-width: calc(100% - 40px);
+        height: auto;
+        margin: 0 20px;
+        margin-top: 66px;
+    }  
+    .challenges-row-container{
+        height: auto;
+        margin-top: 36px;
+    }                            
+    .challenges-row-1{
+        height: auto;
+        flex-direction: column;
+    }
+    .challenges-row-2{
+        margin-top: 20px;
+        height:auto;
+    }                               
+    .challenge-1, .challenge-2, .challenge-3{
+        width: 100%;
+        height: auto; 
+    }
+    .c-1-title, .c-2-title, .c-3-title{
+        font-size: 1.5rem;
+    }
+    .c-1-desc, .c-2-desc, .c-3-desc{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.875rem;
+    }
+
 }
