@@ -548,3 +548,124 @@ li{
     background-color: transparent;
     border: 1px solid white;
 }
+
+                              /* BMI Calculator styles */
+
+.BMI-calculator-section{
+    height: 783px;
+    background-color: black;
+}
+.BMI-calculator-container{
+    width: 1060px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+    flex-direction: column;
+    align-items: center;
+}
+.BMI-calculator-text-container{
+    width: 671px;
+    height: 120px;
+    margin-bottom: 58px;
+    margin-bottom: 88px;
+}
+.BMI-calculator-text-container h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.BMI-calculator-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.BMI-Calculation-container{
+    height: 487px;
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+}
+.BMI-Calculation-content{
+    width: 1062px;
+    height: 386px;
+    margin: 0 auto;
+    gap: 175px;
+}
+.left-content{
+    width: 310px;
+    height: 302px;
+}
+.left-content-text{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+.left-content table{
+    width: 310px;
+    height: 216px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+table th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    text-align: left;
+}
+table th{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+table td{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+.right-content{
+    width: 577px;
+    height: 386px;
+}
+.right-content-text{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.right-content-text-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.height-weight, .age-gender{
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+input, select{
+    width: 282.5px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+input::placeholder, .select, .select-3{
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    border-right: 20px solid transparent;
+}
+.option{
+    background-color: black;
+}
+.activity{
+    margin-bottom: 34px;
+}
+.select-3{
+    width: 577px;
+    height: 48px;
+}
