@@ -12,3 +12,82 @@ body{
     box-sizing: border-box;
 }
 
+html{
+    font-size: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* shared style */
+
+#hide{
+    display: none;
+}
+
+.full-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 0.01px solid transparent;
+}
+
+.display-flex{
+    display: flex;
+}
+
+
+                                   /* header styles */
+                                      /* navbar */
+.header-section{
+    height: 715px;
+    background: linear-gradient(black,rgb(27, 27, 27),rgb(27, 27, 27),black);
+}
+.navbar{
+    max-width: 1060px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 57px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left h3, .footer-left-title{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+.nav-right{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    border-radius: 40px;
+}
+.nav-right i{
+    display: none;
+}
+.nav-items{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    gap: 60px;
+}
+.nav-link{
+    color: white;
+    font-size: 1.25rem;
+}
+#nav-home{
+    position: relative;
+    background: rgb(230, 83, 60);
+    padding: 10px 25px;
+    border-radius: 46px;
+    justify-items: center;
+    transition: all 0.5s ;
+}
+#nav-home:hover{
+    background-color: transparent;
+    border: 1.5px solid #E6533C ;
+}
