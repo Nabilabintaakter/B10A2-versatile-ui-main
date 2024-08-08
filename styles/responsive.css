@@ -8,6 +8,10 @@
           margin: 0 auto;
           border: 0.01px solid transparent;
           }
+    body{
+            /* border: 2px solid yellow; */
+            min-width: 400px;
+        }
                                 
     /* navbar style */
                                 
@@ -49,6 +53,10 @@
     }
     .banner-text-container h1{
         font-size: 2.25rem;
+    }
+    .btn-container{
+        display: flex;
+        gap: 5px;
     }
     .btn-primary{
         width: 169px;
